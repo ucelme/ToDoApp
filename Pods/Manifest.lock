@@ -1,0 +1,26 @@
+PODS:
+  - Realm (4.4.1):
+    - Realm/Headers (= 4.4.1)
+  - Realm/Headers (4.4.1)
+  - RealmSwift (4.4.1):
+    - Realm (= 4.4.1)
+  - SwiftyStoreKit (0.16.1)
+
+DEPENDENCIES:
+  - RealmSwift (~> 4.4.1)
+  - SwiftyStoreKit
+
+SPEC REPOS:
+  trunk:
+    - Realm
+    - RealmSwift
+    - SwiftyStoreKit
+
+SPEC CHECKSUMS:
+  Realm: 4eb04d7487bd43c0581256f40b424eafb711deff
+  RealmSwift: 3eb8924ff7100df5928c7602f71d0fec51e7c9c5
+  SwiftyStoreKit: 6b9c08810269f030586dac1fae8e75871a82e84a
+
+PODFILE CHECKSUM: 6020ffdf37496b2a3b4eb446b4d763a835f05422
+
+COCOAPODS: 1.10.0
