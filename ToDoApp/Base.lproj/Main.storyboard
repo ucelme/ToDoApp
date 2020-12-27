@@ -510,21 +510,25 @@ Premium</string>
                                             <rect key="frame" x="0.0" y="0.0" width="343" height="55"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Remind Me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0pF-tA-TV8">
-                                                    <rect key="frame" x="16" y="17" width="91" height="22"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remind Me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0pF-tA-TV8">
+                                                    <rect key="frame" x="16" y="16.5" width="91" height="22"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TCh-8Q-ouM">
-                                                    <rect key="frame" x="278" y="12" width="49" height="31"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TCh-8Q-ouM">
+                                                    <rect key="frame" x="276" y="12" width="51" height="31"/>
                                                     <connections>
                                                         <action selector="remindToggle:" destination="kTJ-I0-l3F" eventType="valueChanged" id="S8L-YE-Pga"/>
                                                     </connections>
                                                 </switch>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="TCh-8Q-ouM" secondAttribute="trailing" constant="2" id="Vz9-ig-a25"/>
+                                                <constraint firstItem="0pF-tA-TV8" firstAttribute="centerY" secondItem="yDa-Lh-bUk" secondAttribute="centerY" id="cmB-tL-rPU"/>
+                                                <constraint firstItem="TCh-8Q-ouM" firstAttribute="top" secondItem="yDa-Lh-bUk" secondAttribute="topMargin" constant="1" id="jPs-6w-f7y"/>
+                                                <constraint firstItem="0pF-tA-TV8" firstAttribute="leading" secondItem="yDa-Lh-bUk" secondAttribute="leadingMargin" id="pea-xS-XlJ"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="Qzn-oJ-i59" detailTextLabel="Xvd-kR-k3l" rowHeight="55" style="IBUITableViewCellStyleValue1" id="l1V-QI-07U">
@@ -663,7 +667,7 @@ Premium</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="vYs-6v-RtT"/>
+        <segue reference="x1v-Du-Zoq"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" systemColor="labelColor"/>
     <resources>
